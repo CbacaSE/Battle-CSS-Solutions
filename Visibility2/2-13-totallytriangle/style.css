@@ -1,0 +1,14 @@
+  body {
+    background:#0B2429;
+    margin:0;
+    position:relative;
+  }
+  div::after {
+    background:#F3AC3C;
+    content:' ';
+    height:200px;
+    margin:-100px;
+    position:absolute;
+    transform:rotate(45deg);
+    width:200px;
+  }
