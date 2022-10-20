@@ -1,3 +1,8 @@
+body {
+    background:#191210;
+    display:flex;
+    justify-content:center;
+  }
 div {
     background:#84271C;
     border:25px solid #191210;
