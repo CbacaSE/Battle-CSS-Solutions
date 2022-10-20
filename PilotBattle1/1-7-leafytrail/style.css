@@ -1,0 +1,31 @@
+body {
+    background:#0B2429;
+  }
+  div {
+    border-top-left-radius:100px;
+    border-bottom-right-radius:100px;
+    height:150;
+    width:150;
+  }
+  .one {
+    background:#1A4341;
+    position:absolute;
+	top:75;
+    left:75;
+    z-index:-1;
+  }
+  .two {
+    background:#998235;
+    position:absolute;
+    top:75;
+    left:125;
+	margin:0;
+    z-index:0;
+  }
+  .three {
+    background:#F3AC3C;
+   	position:absolute;
+	top:75;
+    left:175;
+    z-index:1;
+  }

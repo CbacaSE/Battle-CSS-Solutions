@@ -1,0 +1,16 @@
+ body {
+    background:#62374e;
+    margin:0 -20;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  div {
+    width:50;
+    height:50;
+	  margin:50 50;
+    background:#fdc57b;
+    float:left;
+  }
+  .right {
+    float:right;
+  }

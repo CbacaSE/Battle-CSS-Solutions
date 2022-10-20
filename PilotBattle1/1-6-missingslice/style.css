@@ -1,0 +1,22 @@
+body {
+    background:#E3516E;
+    padding:42 92;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  div {
+    width:100;
+    height:100;
+  }
+  .upLeft {
+    background:#51B5A9;
+    border-top-left-radius:100px;
+  }
+  .upRight {
+    background:#FADE8B;
+    border-top-right-radius:100px;
+  }
+  .downLeft {
+    background:#F7F3D7;
+    border-bottom-left-radius:100px;
+  }
