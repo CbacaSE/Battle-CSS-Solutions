@@ -1,0 +1,36 @@
+body {
+    background:#0B2429;
+}
+div {
+    background:#F3AC3C;
+    border-radius:50%;
+    border:20px solid #0B2429;
+    height:140;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15.8%;
+    width:140;
+}
+div::before {
+    background:#998235;
+    border-bottom-left-radius:50%;
+    border-top-right-radius:50%;
+    content:'';
+    height:200;
+    left:100;
+    position:absolute;
+    top:50;
+    transform:rotate(-45deg);
+    width:200;
+    z-index:-99;
+}
+div::after {
+    background:#0B2429;
+    border-radius:50%;
+    content:'';
+    height:50;
+    left:43.87%;
+    position:absolute;
+    top:41.8%;
+    width:50;
+}
